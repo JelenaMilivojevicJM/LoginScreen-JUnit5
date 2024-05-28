@@ -1,0 +1,30 @@
+LoginScreen/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           ├── application/
+│   │   │           │   └── Application.java
+│   │   │           ├── exception/
+│   │   │           │   ├── PasswordException.java
+│   │   │           │   └── UsernameException.java
+│   │   │           ├── login/
+│   │   │           │   └── LoginScreen.java
+│   │   │           └── read/
+│   │   │               └── ReadProperties.java
+│   │   └── resources/
+│   │       └── login.properties
+├── test/
+│   ├── java/
+│   │   └── com/
+│   │       └── example/
+│   │           └── test/
+│   │               ├── LoginScreenTest.java
+│   │               └── ReadPropertiesTest.java
+│   └── resources/
+│       └── test.properties
+│
+├── README.md
+├── directorystructure.txt
+└── pom.xml
