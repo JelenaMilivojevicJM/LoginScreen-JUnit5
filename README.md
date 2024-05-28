@@ -1,8 +1,9 @@
-## LoginScreen-JUnit5🔎💻
+## LoginScreen-JUnit5🔎💻📋
 
 The LoginScreen-JUnit5 project is a Java application designed to handle user authentication and login functionality. The main focus is on demonstrating JUnit5 testing examples. This project includes classes for reading properties and validating login usernames and passwords. Additionally, it provides classes for handling exceptions related to login.
 
-📍Components:
+
+📍**Components**:
 1.	🧩Application.java:
 - The entry point for your application.
 - Contains the main method.
@@ -20,7 +21,8 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
 - Contains JUnit 5 unit tests for the LoginScreen and ReadProperties classes.
 - Ensure that the functionality works as expected.
 
-📍Usage:
+
+📍**Usage**:
 1.	Clone the Repository:
 - Begin by cloning this repository to a local machine using Git:
                 -git clone https://github.com/your-username/LoginScreen.git
@@ -60,10 +62,12 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
 - password: The corresponding password (e.g., “123X4X5X6”).
 - In a testing context, these properties might be used for test scenarios, such as verifying login functionality or testing edge cases.
 
-📍Configuration
+
+📍**Configuration**
 - Edit login.properties to set a desired username and password properties.
 
-📍Test Classes
+
+📍**Test Classes**
 1.	🧩LoginScreenTest:
 - Contains JUnit 5 unit tests for the LoginScreen class.
 - Ensures that the login-related functionality works as expected.
@@ -78,7 +82,8 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
         - 🔎 Reading properties from login.properties file.
         - 🔎 Checking username and password validity.
 
-📍How to Run Tests
+
+📍**How to Run Tests**
 1.	Build the Project:
 - Ensure that you’ve built the project using Maven (as mentioned in the README).
 - Navigate to the project root directory:
@@ -92,7 +97,7 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
 - Green checkmarks indicate successful tests, while red crosses indicate failures.
 
 
-📍JUnit5 Dependencies in pom.xml
+📍**JUnit5 Dependencies in pom.xml**
 Dependencies specified in the pom.xml file for the JUnit 5 testing project:
 1.	🧩JUnit Jupiter API:
 - The JUnit Jupiter API is a part of the JUnit 5 framework.
@@ -121,4 +126,4 @@ Dependencies specified in the pom.xml file for the JUnit 5 testing project:
                 </dependency>
 
 
-These dependencies allow us to write and run JUnit 5 tests in our project. They provide the necessary tools and infrastructure for creating effective test cases. It's important to make sure that one's project setup aligns with these dependencies, and then it will be all set for testing.
+These dependencies allow us to write and run JUnit 5 tests in our project. They provide the necessary tools and infrastructure for creating effective test cases. It's important to make sure that one's project setup aligns with these dependencies, and then it will be all set for testing.📋
