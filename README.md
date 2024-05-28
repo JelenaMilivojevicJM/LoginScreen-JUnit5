@@ -25,13 +25,13 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
 📍**Usage**:
 1.	Clone the Repository:
 - Begin by cloning this repository to a local machine using Git:
-                -git clone https://github.com/your-username/LoginScreen.git
+- git clone https://github.com/your-username/LoginScreen.git
 
 2.	Build the Project:
 - Navigate to the project root directory:
-                    	cd LoginScreen
+- cd LoginScreen
 - Build the project using Maven (ensure you have Maven installed):
-                    	mvn clean install
+- mvn clean install
 3.	Configure Properties:
 - Edit login.properties in the resources directory:
 - Set a desired username and password properties.
@@ -39,13 +39,13 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
 
 4.	Run the Application:
 - Execute the Application class to start the application:
-                 java -cp target/LoginScreen-1.0-SNAPSHOT.jar com.example.application.Application
+- java -cp target/LoginScreen-1.0-SNAPSHOT.jar com.example.application.Application
 
 5.	Testing:
 - Unit tests are provided in the test directory.
 - Use LoginScreenTest and ReadPropertiesTest for testing.
 - Run tests using Maven:
-                        	mvn test
+ - mvn test
 
 6.	Properties Files:
     1.	login.properties:( located in the java  resources directory)
@@ -72,25 +72,26 @@ The LoginScreen-JUnit5 project is a Java application designed to handle user aut
 - Contains JUnit 5 unit tests for the LoginScreen class.
 - Ensures that the login-related functionality works as expected.
 - Tests include:
-        - 🔎 Reading properties from test.properties file.
-        - 🔎 Validating usernames (not empty, empty, and null).
-        - 🔎 Validating passwords (valid, empty, null, and whitespace-only).
+- 🔎 Reading properties from test.properties file.
+- 🔎 Validating usernames (not empty, empty, and null).
+- 🔎 Validating passwords (valid, empty, null, and whitespace-only).
+
 2.	🧩ReadPropertiesTest:
 - Contains JUnit 5 unit tests for the ReadProperties class.
 - Ensures that properties are correctly read from login.properties.
 - Tests include:
-        - 🔎 Reading properties from login.properties file.
-        - 🔎 Checking username and password validity.
+- 🔎 Reading properties from login.properties file.
+- 🔎 Checking username and password validity.
 
 
 📍**How to Run Tests**
 1.	Build the Project:
 - Ensure that you’ve built the project using Maven (as mentioned in the README).
 - Navigate to the project root directory:
-                    cd LoginScreen
+- cd LoginScreen
 2.	Run Tests:
 - Execute the following command to run all tests:
-                      mvn test
+- mvn test
 - Maven will execute the tests defined in the LoginScreenTest and ReadPropertiesTest classes.
 3.	View Test Results:
 - Observe the test results in the console.
